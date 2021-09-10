@@ -1,6 +1,7 @@
 module MyExample
 
-export my_f
+using ForwardDiff
+export my_f, derivative_of_my_f
 
 greet() = print("hello world!")
 
