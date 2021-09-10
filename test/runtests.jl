@@ -5,6 +5,6 @@ using Test
     #2x+3y
     @test my_f(2,1) == 7
     @test my_f(2,3) == 13
-    @test my_f(2,3) == 9
+    @test my_f(0,3) == 9
 
 end
