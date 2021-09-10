@@ -1,6 +1,11 @@
 using MyExample
 using Test
 
+
+@test my_f(2,1) == 7
+
 @testset "MyExample.jl" begin
-    # Write your tests here.
+
+    @test my_f(2,1) == 7
+    @test my_f(2,3) == 13
 end
